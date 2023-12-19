@@ -1,1 +1,1 @@
-# This is a clone of Cynthia Ugwu.
+# This is a clone of Cynthia Ugwu Webiste.
