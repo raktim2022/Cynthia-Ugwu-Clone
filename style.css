@@ -13,18 +13,19 @@ html,body{
     background-color: black;
 }
 #home{
+    position: relative;
     width: 100%;
     height: 100vw;
     color: #fff;
+    background-color: black;
 }
 #nav{
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 30px 40px;
-    color: white;
+    padding: 20px 40px;
+    color: #fff;
 }
 #nav a{
     text-decoration: none;
@@ -32,21 +33,24 @@ html,body{
     color: white;
 }
 #heading{
-    padding-top: 180px;
+    padding-top: 90px;
 }
 #heading h1{
     font-family: "Arial";
-    line-height: .8;
+    line-height: 1;
     opacity: .6;
     margin-left: 30px;
     font-size: 10vw;
     text-transform: uppercase;
-    font-weight: 1300;
+    font-weight: 900;
 }
 #heading #secoundh1{
-    margin-left: 170px;
+    margin-left: 230px;
 }
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
 }
 .blocktext h5{
@@ -58,21 +62,19 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: end;
-    gap: 10px;
-    margin-top: 147px;
+    margin-top: 100px;
     padding-right: 50px;
 }
 #chotiheading h5{
     text-transform: uppercase;
     margin-top: .5vw;
     text-align: right;
-    font-size: 1.15vw;
+    font-size: 1vw;
 }
 #homefooter {
     padding: 0 2vw;
     width: 100%;
     position: absolute;
-    bottom: -8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,4 +96,16 @@ html,body{
     height: 25px;
     border-radius: 50%;
     background-color: #888;
+}
+#secound{
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
 }
